@@ -16,7 +16,7 @@ function updateTimer() {
 
     const formattedTime = `${month}/${day}/${year}, ${hours12}:${minutes}:${seconds} ${ampm}`;
     
-    document.getElementById("time").textContent = formattedTime;
+    document.getElementById("timer").textContent = formattedTime;
 }
 
 // Update the timer every second
